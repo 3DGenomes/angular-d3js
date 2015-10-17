@@ -40,15 +40,13 @@ myapp = angular.module('myapp', ['d3']);
 						}
 					};
 
-
 					// VIEWPORT
 					/* component ie. directive == parentNode
-					 * component-controller == children[0]
-					 * - component-header == children[0]
-					 * - component-body == children[1]
+					 * component controller == children[0]
+					 * component div == children[0]
 					 */
 					var component = element[0].parentNode;
-					var viewport = element[0].children[0].children[1];
+					var viewport = element[0].children[0].children[0];
 					var svg = d3.select(viewport).append('svg');
 
 					// render D3 chart on initialize and resize 
