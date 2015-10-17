@@ -1,10 +1,10 @@
 {
-  "name": "angular-d3",
+  "name": "angular-d3js",
   "version": "0.1.0",
   "dependencies": {
     "angular": ">0.9.0"
   },
-  "main": "angular-d3.js",
+  "main": "angular-d3js.js",
   "ignore": [
     ".*",
     "**/.*",
