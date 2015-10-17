@@ -4,7 +4,7 @@ Angular service that implements D3 - see http://d3js.org/
 
 ## Usage
 
-Require the module 'd3' in your app and call `uuid4.generate()`.
+Require the 'd3Service' in your app and call 'd3'.
 
 Example:
 
