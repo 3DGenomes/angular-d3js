@@ -1,18 +1,18 @@
-# angular-d3
+# angular-d3js
 
-Angular service that implements D3 - see http://d3js.org/
+Angular service that implements D3.js - see http://d3js.org/
 
 ## Usage
 
-Require the 'd3Service' in your app and call 'd3'.
+Require the 'd3js' module in your app and inject the 'd3Service' into a directive.
 
 Example:
 
 ``` javascript
-// add the d3 module to your app
-myapp = angular.module('myapp', ['d3']);
+// add the d3js module to your app
+myapp = angular.module('myapp', ['d3js']);
 
-// inject it into your directive
+// inject d3Service into your directive
 (function() {
 	'use strict';
 	angular

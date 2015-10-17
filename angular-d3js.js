@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 	angular
-		.module('d3', [])
+		.module('d3js', [])
 		.factory('d3Service', d3Service);
 
 	function d3Service($document, $q, $rootScope) {
