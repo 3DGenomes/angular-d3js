@@ -8,6 +8,7 @@
 			var deferred = $q.defer();
 			function onScriptLoad() {
 				// Load client in the browser
+				console.log("Loaded d3.js!");
 				$rootScope.$apply(function() { deferred.resolve(window.d3); });
 			}
 			// Create a script tag with d3 as the source
@@ -31,7 +32,10 @@
 			s.appendChild(scriptTag);
 
 			return {
-				load: function() { return deferred.promise; }
+				load: function() {
+					// console.log("Loading d3.js...");
+					return deferred.promise;
+				}
 			};
 	}
 })();
